@@ -1,5 +1,6 @@
 import Bottle from '../../assets/source.svg'
 import '../../styles/components/ui/ShoppingList.css'
+import { ProductList } from './ProductList'
 
 export const ShoppingList = () => {
   return (
@@ -14,29 +15,7 @@ export const ShoppingList = () => {
             </div>
         </div>
 
-        {/* <div className="product-list">
-            <div className="header">
-                <h1>Shopping list</h1>
-                <span>Icon</span>
-            </div>
-            <div className="subproducts">
-                <h6>Fruit and vegetables</h6>
-                <ul>
-                    <li>
-                        <div className="product-title">
-                            <p>Acocado</p>
-                            <div className="pieces">3 pcs</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="product-title">
-                            <p>Pre-cooked corn 450g</p>
-                            <div className="pieces">3 pcs</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div> */}
+        <ProductList />
     </div>
   )
 }

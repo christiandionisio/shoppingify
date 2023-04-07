@@ -1,0 +1,65 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+
+.product-list .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-list .header h1 {
+    font-size: 1.8vw;
+}
+
+.product-list .header span {
+    cursor: pointer;
+    padding: .5vw .5vw;
+    border-radius: 50%;
+}
+
+.product-list .header span:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+/* .product-list .subproducts {
+    background-color: red;
+} */
+
+.product-list .subproducts h6 {
+    color: #828282;
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.product-list .subproducts ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.product-list .subproducts ul .product-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-list .subproducts ul .product-title p {
+    font-size: 1.3vw;
+}
+
+.product-list .subproducts ul .product-title .pieces {
+    border: 2px solid #F9A109;
+    border-radius: 24px;
+    padding: .5vw 1vw;
+
+    color: #F9A10A;
+    font-weight: bold;
+    font-size: .8vw;
+}
