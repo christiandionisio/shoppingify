@@ -1,0 +1,55 @@
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 30px 0;
+}
+
+.sidebar-content .logo img {
+    width: 90%;
+}
+
+.sidebar-content .tabs {
+    background-color: blue;
+}
+
+.sidebar-content .cart {
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    cursor: pointer;
+}
+
+.sidebar-content .cart .cart-icon {
+    background-color: #F9A109;
+    color: #fff;
+    height: 100%;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-content .cart .cart-icon span {
+    font-size: 1.6vw;
+}
+
+.sidebar-content .cart .badge {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: #EB5757;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.8vw;
+    
+    position: absolute;
+    top: -0.3vw;
+    right: -0.3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

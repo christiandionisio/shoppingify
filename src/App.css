@@ -8,15 +8,15 @@
 
 .sidebar {
   flex: 1;
-  background-color: blue;
+  background-color: #fff;
 }
 
 .principal-content {
   flex: 13;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .shopping-list {
   flex: 6;
-  background-color: red;
+  /* background-color: red; */
 }

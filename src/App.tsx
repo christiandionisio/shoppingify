@@ -1,10 +1,11 @@
 import './App.css';
+import { Sidebar } from './components/ui/Sidebar';
 
 function App() {
   return (
     <div className="shoppingify-app">
       <div className="sidebar">
-        <p>sidebar</p>
+        <Sidebar />
       </div>
       <div className="principal-content">
         <p>principal-content</p>
