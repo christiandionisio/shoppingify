@@ -1,4 +1,5 @@
 import Bottle from '../../assets/source.svg'
+import '../../styles/components/ui/ShoppingList.css'
 
 export const ShoppingList = () => {
   return (

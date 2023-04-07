@@ -1,0 +1,54 @@
+.shopping-list-content {
+    height: 100vh;
+    padding: 0 2.5vw;
+    padding-top: 2.5vw;
+}
+
+.add-item-card {
+    background-color: #80485B;
+    color: #fff;
+    border-radius: 24px;
+    padding: 1vw 1vw;
+    height: 17vh;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.icon-row {
+    position: relative;
+    top: -2.5vw;
+    left: 0;
+}
+
+.icon-row img {
+    width: 100%;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-row h3 {
+    font-size: 1.2vw;
+}
+
+.content-row button {
+    border: none;
+    font: inherit;
+    cursor: pointer;
+
+    width: 60%;
+    height: 5vh;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.content-row button:hover {
+    opacity: .9;
+}
