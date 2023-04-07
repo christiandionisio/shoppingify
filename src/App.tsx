@@ -1,4 +1,5 @@
 import './App.css';
+import { ShoppingList } from './components/ui/ShoppingList';
 import { Sidebar } from './components/ui/Sidebar';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
         <p>principal-content</p>
       </div>
       <div className="shopping-list">
-        <p>shopping-list</p>
+        <ShoppingList />
       </div>
     </div>
   );
