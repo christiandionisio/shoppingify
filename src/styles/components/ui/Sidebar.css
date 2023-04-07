@@ -12,7 +12,41 @@
 }
 
 .sidebar-content .tabs {
-    background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar-content .tabs .items-tab {
+    color: #454545;
+    height: 4.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-content .tabs .history-tab {
+    color: #454545;
+    height: 4.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-content .tabs .statistics-tab {
+    color: #454545;
+    height: 4.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active-tab {
+    border-left: 6px solid #F9A109;
+    border-bottom-right-radius: 5px;  
+    border-top-right-radius: 5px;
 }
 
 .sidebar-content .cart {

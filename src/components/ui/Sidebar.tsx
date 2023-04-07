@@ -9,7 +9,23 @@ export const Sidebar = () => {
         </div>
 
         <div className="tabs">
-            tabs
+            <div className="items-tab active-tab">
+                <span className="material-symbols-outlined">
+                    format_list_bulleted
+                </span>
+            </div>
+
+            <div className="history-tab">
+                <span className="material-symbols-outlined">
+                    replay
+                </span>
+            </div>
+
+            <div className="statistics-tab">
+                <span className="material-symbols-outlined">
+                    insert_chart
+                </span>
+            </div>
         </div>
 
         <div className="cart">
