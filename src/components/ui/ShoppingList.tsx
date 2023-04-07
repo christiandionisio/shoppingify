@@ -16,6 +16,13 @@ export const ShoppingList = () => {
         </div>
 
         <ProductList />
+        
+        <div className="name-footer">
+            <div className="enter-name-input">
+              <input type="text" value={'Enter a name'} />
+              <button>Save</button>
+            </div>
+        </div>
     </div>
   )
 }

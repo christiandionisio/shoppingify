@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 3vw;
+    position: relative;
 }
 
 .add-item-card {
@@ -55,4 +56,51 @@
 
 .content-row button:hover {
     opacity: .9;
+}
+
+.name-footer {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    bottom: 0;
+    left: 0;
+    padding: 1.5vw 2.5vw;
+}
+
+.name-footer .enter-name-input {
+    border: 2px solid #F9A109;
+    border-radius: 12px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-footer .enter-name-input input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    padding: 0 1vw;
+
+    color: #BDBDBD;
+    font-size: 1vw;
+    width: 60%;
+}
+
+.name-footer .enter-name-input input:focus {
+    outline: none;
+}
+
+.name-footer .enter-name-input button {
+    background: #F9A109;
+    border-radius: 8px;
+    border: none;
+    height: 100%;
+    width: 20%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
 }
