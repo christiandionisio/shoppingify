@@ -1,3 +1,4 @@
+import '../../styles/components/tabs/ItemsTab.css'
 
 export const ItemsTab = () => {
   return (
@@ -5,11 +6,11 @@ export const ItemsTab = () => {
 
         <div className="items-header">
             <h1>
-                Shoppingify allows you 
+                <strong>Shoppingify</strong> allows you 
                 take your shopping list wherever you go
             </h1>
 
-            <div className="search-box">
+            <div className="search-box shadow">
                 <span className="material-symbols-outlined">search</span>
                 <input type="text" placeholder="search item"/>
             </div>
