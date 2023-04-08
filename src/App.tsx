@@ -1,6 +1,7 @@
 import './App.css';
 import { ShoppingList } from './components/ui/ShoppingList';
 import { Sidebar } from './components/ui/Sidebar';
+import { TabsPage } from './pages/TabsPage';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <Sidebar />
       </div>
       <div className="principal-content">
-        <p>principal-content</p>
+        <TabsPage />
       </div>
       <div className="shopping-list">
         <ShoppingList />
