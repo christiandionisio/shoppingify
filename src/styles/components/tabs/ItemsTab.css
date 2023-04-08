@@ -1,4 +1,10 @@
 
+.items-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
 .items-header {
     display: flex;
     flex-direction: row;
@@ -8,7 +14,7 @@
 .items-header h1 {
     color: #34333A;
     font-size: 26px;
-    width: 40%;
+    width: 50%;
 }
 
 .items-header h1 strong {
