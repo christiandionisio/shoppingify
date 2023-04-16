@@ -1,4 +1,6 @@
 .tabs-page {
-    margin: 0 4vw;
-    margin-top: 2vw;
+    padding: 0 4vw;
+    padding-top: 2vw;
+    height: 100vh;
+    overflow-y: auto;
 }
