@@ -1,4 +1,5 @@
 import '../../styles/components/tabs/ItemsTab.css'
+import { ItemCard } from '../ui/ItemCard'
 
 export const ItemsTab = () => {
   return (
@@ -18,38 +19,42 @@ export const ItemsTab = () => {
         <div className="items-list-section">
             <h2>Fruit and vegetables</h2>
             <div className="grid-items-cards">
-                <div className="item-card">
-                    <h6>Avocado</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Banana</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Bunch of carrots 5pcs</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Chicken 1kg</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Pre-cooked corn 450g</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Mandarin Nadorcott</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Piele De Sapo Melon</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
-                <div className="item-card">
-                    <h6>Watermelon</h6>
-                    <span className="material-symbols-outlined">add</span>
-                </div>
+                <ItemCard name={'Avocado'} />
+                <ItemCard name={'Banana'} />
+                <ItemCard name={'Bunch of carrots 5pcs'} />
+                <ItemCard name={'Chicken 1kg'} />
+                <ItemCard name={'Pre-cooked corn 450g'} />
+                <ItemCard name={'Mandarin Nadorcott'} />
+                <ItemCard name={'Piele De Sapo Melon'} />
+                <ItemCard name={'Watermelon'} />
+            </div>
+        </div>
+
+        <div className="items-list-section">
+            <h2>Fruit and vegetables</h2>
+            <div className="grid-items-cards">
+                <ItemCard name={'Avocado'} />
+                <ItemCard name={'Banana'} />
+                <ItemCard name={'Bunch of carrots 5pcs'} />
+                <ItemCard name={'Chicken 1kg'} />
+                <ItemCard name={'Pre-cooked corn 450g'} />
+                <ItemCard name={'Mandarin Nadorcott'} />
+                <ItemCard name={'Piele De Sapo Melon'} />
+                <ItemCard name={'Watermelon'} />
+            </div>
+        </div>
+
+        <div className="items-list-section">
+            <h2>Fruit and vegetables</h2>
+            <div className="grid-items-cards">
+                <ItemCard name={'Avocado'} />
+                <ItemCard name={'Banana'} />
+                <ItemCard name={'Bunch of carrots 5pcs'} />
+                <ItemCard name={'Chicken 1kg'} />
+                <ItemCard name={'Pre-cooked corn 450g'} />
+                <ItemCard name={'Mandarin Nadorcott'} />
+                <ItemCard name={'Piele De Sapo Melon'} />
+                <ItemCard name={'Watermelon'} />
             </div>
         </div>
 

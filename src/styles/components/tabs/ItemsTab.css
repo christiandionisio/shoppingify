@@ -52,3 +52,19 @@
 .shadow {
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
 }
+
+.items-list-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.items-list-section h2 {
+    font-size: 1.3vw;
+}
+
+.grid-items-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+}
