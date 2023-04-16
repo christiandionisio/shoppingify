@@ -1,0 +1,15 @@
+.items-list-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.items-list-section h2 {
+    font-size: 1.3vw;
+}
+
+.grid-items-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vw;
+}
