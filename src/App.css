@@ -13,10 +13,9 @@
 
 .principal-content {
   flex: 13;
-  /* background-color: green; */
 }
 
 .shopping-list {
   flex: 6;
-  background-color:#FFF0DE;
+  /* background-color:#FFF0DE; */
 }
