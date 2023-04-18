@@ -21,8 +21,8 @@ export const AddNewItem = () => {
             </div>
 
             <div className="form-field-section">
+                <label htmlFor="category">Category</label>
                 <div className="autocomplete-input">
-                    <label htmlFor="category">Category</label>
                     <input id='category' type="text" placeholder='Enter a category' />
                     <button>
                         <span className="material-symbols-outlined with-customize">

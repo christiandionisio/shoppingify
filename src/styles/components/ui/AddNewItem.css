@@ -27,6 +27,7 @@ form {
 }
 
 .form-field-section input {
+    background-color: inherit;
     border: 2px solid #BDBDBD;
     border-radius: 12px;
     padding: 1.8vw 1.5vw;
@@ -46,4 +47,58 @@ form {
 .form-field-section:focus-within label,
 .form-field-section input:focus + label {
     color: #F9A109;
+}
+
+.form-field-section textarea {
+    resize: none;
+    background-color: inherit;
+    border: 2px solid #BDBDBD;
+    border-radius: 12px;
+    padding: 1.8vw 1.5vw;
+    font-size: 1vw;
+    font-family: inherit;
+    color: #BDBDBD;
+    height: 15vh;
+}
+
+.form-field-section textarea:focus {
+    outline: none;
+    border: 2px solid #F9A109;
+}
+
+.autocomplete-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.btn-cancel {
+    background-color: inherit;
+    border: none;
+    font-weight: 700;
+    font-size: 1.1vw;
+    color: #34333A;
+    border-radius: 12px;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.btn-save {
+    background-color: inherit;
+    border: none;
+    font-weight: 700;
+    font-size: 1.1vw;
+    color: #FFFFFF;
+    border-radius: 12px;
+    padding: 1vw;
+    cursor: pointer;
+    background: #F9A109;
+    width: 25%;
 }
