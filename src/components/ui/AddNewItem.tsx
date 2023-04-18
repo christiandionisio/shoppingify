@@ -21,8 +21,9 @@ export const AddNewItem = () => {
             </div>
 
             <div className="form-field-section">
-                <div className="search-input">
-                    <input list='search-cats' type="text" placeholder='Enter your breed' />
+                <div className="autocomplete-input">
+                    <label htmlFor="category">Category</label>
+                    <input id='category' type="text" placeholder='Enter a category' />
                     <button>
                         <span className="material-symbols-outlined with-customize">
                             search
