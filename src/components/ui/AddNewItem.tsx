@@ -26,7 +26,7 @@ export const AddNewItem = () => {
                     <input id='category' type="text" placeholder='Enter a category' />
                     <button>
                         <span className="material-symbols-outlined with-customize">
-                            search
+                            close
                         </span>
                     </button>
                 </div>

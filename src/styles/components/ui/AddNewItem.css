@@ -12,7 +12,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 2vw;
+    gap: 1.3vw;
 }
 
 .form-field-section {
@@ -30,7 +30,7 @@ form {
     background-color: inherit;
     border: 2px solid #BDBDBD;
     border-radius: 12px;
-    padding: 1.8vw 1.5vw;
+    padding: 1.3vw 1.2vw;
     font-size: 1vw;
     color: #BDBDBD;
 }
@@ -54,11 +54,11 @@ form {
     background-color: inherit;
     border: 2px solid #BDBDBD;
     border-radius: 12px;
-    padding: 1.8vw 1.5vw;
+    padding: 1.3vw 1.2vw;
     font-size: 1vw;
     font-family: inherit;
     color: #BDBDBD;
-    height: 15vh;
+    height: 13vh;
 }
 
 .form-field-section textarea:focus {
@@ -70,6 +70,30 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+}
+
+.autocomplete-input input {
+    width: 100%;
+}
+
+.autocomplete-input button {
+    background-color: transparent;
+    position: absolute;
+    right: 1vw;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: #828282;
+    cursor: pointer;
+}
+
+.autocomplete-input button span {
+    font-size: 1.8vw;
+}
+
+.disabled {
+    display: none;
 }
 
 .form-button-section {
