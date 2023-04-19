@@ -1,11 +1,11 @@
-
+import '../../styles/components/ui/ItemContent.css';
 
 export const ItemContent = () => {
   return (
     <div className="item-content">
         <button className="btn-back">
-            <span className="material-symbols-outlined with-customize">
-                close
+            <span className="material-symbols-outlined">
+                keyboard_backspace
             </span>
             <p>back</p>
         </button>

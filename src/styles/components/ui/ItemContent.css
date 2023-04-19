@@ -1,0 +1,32 @@
+.item-content {
+    background-color: #fff;
+    height: 100vh;
+    padding: 2vw 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.btn-back {
+    width: 20%;
+    background-color: transparent;
+    color: #F9A109;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .3vw;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.btn-back span {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.item-content img {
+    width: 100%;
+}
