@@ -145,6 +145,7 @@ form {
 .autocomplete-dropdown li {
     padding: .8vw 1.5vw;
     border-radius: 12px;
+    font-size: 1.1vw;
     color: #828282;
     cursor: pointer;
 }
