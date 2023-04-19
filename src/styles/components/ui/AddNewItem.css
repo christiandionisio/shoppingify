@@ -126,3 +126,30 @@ form {
     background: #F9A109;
     width: 25%;
 }
+
+.autocomplete-dropdown {
+    height: 18vh;
+    overflow: auto;
+    list-style: none;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    padding: 1vw 1vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+.autocomplete-dropdown li {
+    padding: .8vw 1.5vw;
+    border-radius: 12px;
+    color: #828282;
+    cursor: pointer;
+}
+
+.autocomplete-dropdown li:hover {
+    background: #F2F2F2;
+    color: #34333A;
+}

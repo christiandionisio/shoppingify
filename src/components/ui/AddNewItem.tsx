@@ -31,11 +31,11 @@ export const AddNewItem = () => {
                     </button>
                 </div>
 
-                {/* <ul className='dropdown-content'>
+                <ul className='autocomplete-dropdown'>
                     <li>Fruit and vegetables</li>
                     <li>Meat and Fish</li>
                     <li>Beverages</li>
-                </ul> */}
+                </ul>
             </div>
             
             <div className="form-button-section">
