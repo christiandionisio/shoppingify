@@ -45,4 +45,5 @@
 .history-item-card .right .arrow-icon {
     font-size: 1.7vw;
     color: #F9A109;
+    cursor: pointer;
 }
