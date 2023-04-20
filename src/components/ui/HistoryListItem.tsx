@@ -1,4 +1,5 @@
 import { HistoryItemCard } from "./HistoryItemCard"
+import '../../styles/components/ui/HistoryListItem.css'
 
 
 export const HistoryListItem = () => {
