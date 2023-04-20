@@ -1,0 +1,48 @@
+.history-item-card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 1.5vw 1.5vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-item-card .left h6 {
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.history-item-card .right {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+}
+
+.history-item-card .right .calendar-icon {
+    font-size: 1.7vw;
+    color: #C1C1C4;
+}
+
+.history-item-card .right p {
+    font-size: .9vw;
+    color: #C1C1C4;
+}
+
+.history-item-card .right .badge {
+    border: 1px solid #56CCF2;
+    border-radius: 8px;
+    padding: 5px;
+    
+    color: #56CCF2;
+    font-weight: 500;
+    font-size: .8vw;
+}
+
+.history-item-card .right .arrow-icon {
+    font-size: 1.7vw;
+    color: #F9A109;
+}

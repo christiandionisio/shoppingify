@@ -7,6 +7,7 @@ export const HistoryTab = () => {
         <h1>Shopping history</h1>
         <HistoryListItem />
         <HistoryListItem />
+        <HistoryListItem />
     </div>
   )
 }

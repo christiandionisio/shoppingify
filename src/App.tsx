@@ -1,7 +1,7 @@
 import './App.css';
 // import { AddNewItem } from './components/ui/AddNewItem';
-import { ItemContent } from './components/ui/ItemContent';
-// import { ShoppingList } from './components/ui/ShoppingList';
+// import { ItemContent } from './components/ui/ItemContent';
+import { ShoppingList } from './components/ui/ShoppingList';
 import { Sidebar } from './components/ui/Sidebar';
 import { TabsPage } from './pages/TabsPage';
 
@@ -15,9 +15,9 @@ function App() {
         <TabsPage />
       </div>
       <div className="shopping-list">
-        {/* <ShoppingList /> */}
+        <ShoppingList />
         {/* <AddNewItem /> */}
-        <ItemContent />
+        {/* <ItemContent /> */}
       </div>
     </div>
   );
