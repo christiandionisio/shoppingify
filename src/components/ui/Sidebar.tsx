@@ -13,18 +13,21 @@ export const Sidebar = () => {
                 <span className="material-symbols-outlined">
                     format_list_bulleted
                 </span>
+                <span className="tooltip-text">items</span>
             </div>
 
             <div className="history-tab">
                 <span className="material-symbols-outlined">
                     replay
                 </span>
+                <span className="tooltip-text">history</span>
             </div>
 
             <div className="statistics-tab">
                 <span className="material-symbols-outlined">
                     insert_chart
                 </span>
+                <span className="tooltip-text">statistics</span>
             </div>
         </div>
 
