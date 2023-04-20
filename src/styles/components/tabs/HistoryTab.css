@@ -1,5 +1,9 @@
 .history-tab-content {
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .history-tab-content h1 {
