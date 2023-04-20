@@ -1,8 +1,8 @@
-
+import '../../styles/components/tabs/HistoryTab.css'
 
 export const HistoryTab = () => {
   return (
-    <div className="history-tab">
+    <div className="history-tab-content">
         <h1>Shopping history</h1>
         <div className="monthly-history-list">
             <h3>August 2020</h3>
