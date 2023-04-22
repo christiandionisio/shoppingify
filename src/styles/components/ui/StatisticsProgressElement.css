@@ -1,0 +1,30 @@
+.progress-bar-element {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.progress-bar-element .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progress-bar-element progress {
+    width: 100%;
+    height: 6px;
+    border: none;
+    background: #E0E0E0;
+}
+
+.progress-bar-element progress::-webkit-progress-bar {
+    background: #E0E0E0;
+}
+
+.progress-bar-element progress::-webkit-progress-value {
+    background: #F9A109;
+}
+
+.progress-bar-element progress::-webkit-progress-value {
+    background: #56CCF2;
+}

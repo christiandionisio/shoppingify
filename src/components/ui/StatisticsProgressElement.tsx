@@ -1,4 +1,5 @@
 import { FC } from "react";
+import '../../styles/components/ui/StatisticsProgressElement.css'
 
 interface Props {
     elementType: string;
@@ -8,7 +9,10 @@ interface Props {
 export const StatisticsProgressElement: FC<Props> = ({elementType, elementName}) => {
   return (
     <div className="progress-bar-element">
-        <p>{elementName}</p>
+        <div className="info">
+            <p>{elementName}</p>
+            <h6>12%</h6>
+        </div>
         <progress value={50} max={100}></progress>
     </div>
   )
