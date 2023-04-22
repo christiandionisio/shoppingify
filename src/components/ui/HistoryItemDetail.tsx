@@ -13,14 +13,14 @@ export const HistoryItemDetail = () => {
 
         <h1>Eero’s farewell party</h1>
         <div className="date-label">
-            <span className="material-symbols-outlined">
+            <span className="material-symbols-outlined calendar-icon">
                 calendar_month
             </span>
             <p>Mon 27.8.2020</p>
         </div>
 
-        <ItemList name='Cookies' />
-        <ItemList name='Beverages' />
+        <ItemList name='Cookies' type={'history'} />
+        <ItemList name='Beverages' type={'history'} />
 
     </div>
   )

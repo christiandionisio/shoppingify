@@ -16,10 +16,10 @@ export const ItemsTab = () => {
             </div>
         </div>
 
-        <ItemList name='Fruit and vegetables' />
-        <ItemList name='Meat and fish' />
-        <ItemList name='Beverages' />
-        <ItemList name='Pets' />
+        <ItemList name='Fruit and vegetables' type={'items-tab'}/>
+        <ItemList name='Meat and fish' type={'items-tab'}/>
+        <ItemList name='Beverages' type={'items-tab'}/>
+        <ItemList name='Pets' type={'items-tab'}/>
 
     </div>
   )

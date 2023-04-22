@@ -4,21 +4,22 @@ import { ItemCard } from "./ItemCard";
 
 interface Props {
     name: string;
+    type: string
 }
 
-export const ItemList: FC<Props> = ({name}) => {
+export const ItemList: FC<Props> = ({name, type}) => {
   return (
     <div className="items-list-section">
         <h2>{name}</h2>
         <div className="grid-items-cards">
-            <ItemCard name={'Avocado'} />
-            <ItemCard name={'Banana'} />
-            <ItemCard name={'Bunch of carrots 5pcs'} />
-            <ItemCard name={'Chicken 1kg'} />
-            <ItemCard name={'Pre-cooked corn 450g'} />
-            <ItemCard name={'Mandarin Nadorcott'} />
-            <ItemCard name={'Piele De Sapo Melon'} />
-            <ItemCard name={'Watermelon'} />
+            <ItemCard name={'Avocado'} type={type}/>
+            <ItemCard name={'Banana'} type={type}/>
+            <ItemCard name={'Bunch of carrots 5pcs'} type={type}/>
+            <ItemCard name={'Chicken 1kg'} type={type}/>
+            <ItemCard name={'Pre-cooked corn 450g'} type={type}/>
+            <ItemCard name={'Mandarin Nadorcott'} type={type}/>
+            <ItemCard name={'Piele De Sapo Melon'} type={type}/>
+            <ItemCard name={'Watermelon'} type={type}/>
         </div>
     </div>
   )

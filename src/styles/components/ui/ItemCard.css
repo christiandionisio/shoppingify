@@ -21,3 +21,9 @@
     cursor: pointer;
 }
 
+.item-card p {
+    color: #F9A10A;
+    font-size: .8vw;
+    font-weight: 700;
+}
+
