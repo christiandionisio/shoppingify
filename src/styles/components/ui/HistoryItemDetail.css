@@ -1,0 +1,46 @@
+.history-item-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.btn-back {
+    width: 20%;
+    background-color: transparent;
+    color: #F9A109;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1vw;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .3vw;
+}
+
+.btn-back span {
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.history-item-detail h1 {
+    font-size: 1.9vw;
+}
+
+.date-label {
+    display: flex;
+    flex-direction: row;
+    gap: .9vw;
+    color: #C1C1C4;
+    align-items: center;
+}
+
+.date-label p {
+    font-size: .9vw;
+}
+
+.date-label span {
+    font-size: 1.6vw;
+}

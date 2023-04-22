@@ -12,8 +12,8 @@ export const HistoryItemDetail = () => {
         </button>
 
         <h1>Eero’s farewell party</h1>
-        <div className="date">
-            <span className="material-symbols-outlined calendar-icon">
+        <div className="date-label">
+            <span className="material-symbols-outlined">
                 calendar_month
             </span>
             <p>Mon 27.8.2020</p>
