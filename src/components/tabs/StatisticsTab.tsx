@@ -1,5 +1,5 @@
 import { StatisticsProgressElementList } from "../ui/StatisticsProgressElementList"
-
+import '../../styles/components/tabs/StatisticsTab.css'
 
 export const StatisticsTab = () => {
   return (

@@ -1,0 +1,10 @@
+.statistics-tab {
+    display: flex;
+    flex-direction: column;
+}
+
+.percentage-elements-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
