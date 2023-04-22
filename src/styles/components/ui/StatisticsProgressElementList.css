@@ -1,0 +1,9 @@
+.list-progress-bar-element {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+}
+
+.list-progress-bar-element h1 {
+    font-size: 24px;
+}

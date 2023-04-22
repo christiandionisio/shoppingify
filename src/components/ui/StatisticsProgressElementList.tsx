@@ -1,5 +1,6 @@
 import { FC } from "react";
 import { StatisticsProgressElement } from "./StatisticsProgressElement";
+import '../../styles/components/ui/StatisticsProgressElementList.css';
 
 interface Props {
     elementType: string;
