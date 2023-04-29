@@ -1,10 +1,16 @@
 .statistics-tab {
     display: flex;
     flex-direction: column;
+    gap: 80px;
 }
 
 .percentage-elements-view {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.chart-view h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
 }
