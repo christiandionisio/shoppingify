@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 // import { AddNewItem } from './components/ui/AddNewItem';
 // import { ItemContent } from './components/ui/ItemContent';
@@ -7,19 +8,21 @@ import { TabsPage } from './pages/TabsPage';
 
 function App() {
   return (
-    <div className="shoppingify-app">
-      <div className="sidebar">
-        <Sidebar />
+    <BrowserRouter>
+      <div className="shoppingify-app">
+        <div className="sidebar">
+          <Sidebar />
+        </div>
+        <div className="principal-content">
+          <TabsPage />
+        </div>
+        <div className="shopping-list">
+          <ShoppingList />
+          {/* <AddNewItem /> */}
+          {/* <ItemContent /> */}
+        </div>
       </div>
-      <div className="principal-content">
-        <TabsPage />
-      </div>
-      <div className="shopping-list">
-        <ShoppingList />
-        {/* <AddNewItem /> */}
-        {/* <ItemContent /> */}
-      </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
