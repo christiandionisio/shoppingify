@@ -1,14 +1,16 @@
 import '../../styles/components/ui/Sidebar.css'
 import Logo from '../../assets/logo.svg'
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 
 export const Sidebar = () => {
 
     const navigate = useNavigate();
+    const location = useLocation();
 
     const handleClick = (route: string) => {
         navigate(`${route}`);
     }
+    
 
   return (
     <div className='sidebar-content'>
@@ -17,21 +19,27 @@ export const Sidebar = () => {
         </div>
 
         <div className="tabs">
-            <div className="items-tab active-tab" onClick={() => handleClick('/')}>
+            <div className={`items-tab ${location.pathname === '/' ? 'active-tab' : ''}`} 
+                onClick={() => handleClick('/')}
+            >
                 <span className="material-symbols-outlined">
                     format_list_bulleted
                 </span>
                 <span className="tooltip-text">items</span>
             </div>
 
-            <div className="history-tab" onClick={() => handleClick('/history')}>
+            <div className={`history-tab ${location.pathname === '/history' ? 'active-tab' : ''}`}  
+                onClick={() => handleClick('/history')}
+            >
                 <span className="material-symbols-outlined">
                     replay
                 </span>
                 <span className="tooltip-text">history</span>
             </div>
 
-            <div className="statistics-tab" onClick={() => handleClick('/statistics')}>
+            <div className={`statistics-tab ${location.pathname === '/statistics' ? 'active-tab' : ''}`} 
+                onClick={() => handleClick('/statistics')}
+            >
                 <span className="material-symbols-outlined">
                     insert_chart
                 </span>
