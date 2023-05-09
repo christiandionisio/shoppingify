@@ -22,15 +22,12 @@
     cursor: pointer;
     padding: .5vw .5vw;
     border-radius: 50%;
+    font-size: 3vw;
 }
 
 .product-list .header span:hover {
     background-color: rgb(198, 198, 198);
 }
-
-/* .product-list .subproducts {
-    background-color: red;
-} */
 
 .product-list .subproducts h6 {
     color: #828282;
@@ -64,4 +61,37 @@
     color: #F9A10A;
     font-weight: bold;
     font-size: .8vw;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .product-list {
+        gap: 3.5vw;
+    }
+
+    .product-list .header h1 {
+        font-size: 2vw;
+    }
+
+    .product-list .header span {
+        font-size: 2.4vw;
+    }
+
+    .product-list .subproducts h6 {
+        font-size: 1.4vw;
+    }
+
+    .product-list .subproducts ul .product-title p {
+        font-size: 1.7vw;
+    }
+
+    .product-list .subproducts ul .product-title .pieces {
+        font-size: 1.2vw;
+    }
+
+}
+
+@media (max-width: 767px) {
+
 }
