@@ -105,3 +105,39 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .add-item-card {
+        height: 14vh;
+        gap: 2vw;
+    }
+
+    .content-row h3 {
+        font-size: 1.5vw;
+    }
+
+    .content-row button {
+        width: 70%;
+        height: 4vh;
+        font-size: 1.2vw;
+    }
+
+    .name-footer {
+        height: 9vh;
+    }
+
+    .name-footer .enter-name-input input {
+        font-size: 1.3vw;
+    }
+
+    .name-footer .enter-name-input button {
+        font-size: 1.3vw;
+        width: 22%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
