@@ -129,3 +129,45 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sidebar-content .tabs .items-tab span {
+        font-size: 2.8vw;
+    }
+
+    .sidebar-content .tabs .history-tab span {
+        font-size: 2.8vw;
+    }
+
+    .sidebar-content .tabs .statistics-tab span {
+        font-size: 2.8vw;
+    }
+
+    .active-tab {
+        border-left: 5px solid #F9A109;
+    }
+
+    .sidebar-content .cart {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .sidebar-content .cart .cart-icon span {
+        font-size: 2.5vw;
+    }
+
+    .sidebar-content .cart .badge {
+        width: 2vw;
+        height: 2vw;
+        font-size: 1.2vw;
+        
+        top: -0.5vw;
+        right: -0.5vw;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
