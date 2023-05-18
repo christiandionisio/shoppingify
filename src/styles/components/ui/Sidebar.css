@@ -208,4 +208,10 @@
         right: -1vw;
     }
 
+    .tooltip-text {
+        left: 16%;
+        padding: 1vw;
+        font-size: 3vw !important;
+    }
+
 }
