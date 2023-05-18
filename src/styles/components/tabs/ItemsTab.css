@@ -76,4 +76,26 @@
 
 @media (max-width: 767px) {
 
+    .items-tab {
+        gap: 8vw;
+    }
+    
+
+    .items-header h1 {
+        font-size: 4.5vw;
+    }
+
+    .search-box {
+        width: 42%;
+        padding: 2vw;
+    }
+
+    .search-box span {
+        font-size: 4vw;
+    }
+
+    .search-box input {
+        font-size: 2.7vw;
+    }
+
 }

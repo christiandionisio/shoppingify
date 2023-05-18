@@ -29,4 +29,18 @@
 
 @media (max-width: 767px) {
 
+    .items-list-section {
+        gap: 3vw;
+    }
+    
+
+    .grid-items-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2vw;
+    }
+
+    .items-list-section h2 {
+        font-size: 4vw;
+    }
+
 }
