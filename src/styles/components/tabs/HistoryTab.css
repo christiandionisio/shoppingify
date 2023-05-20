@@ -10,3 +10,12 @@
     font-size: 1.9vw;
     color: #34333A;
 }
+
+
+@media (max-width: 767px) {
+
+    .history-tab-content h1 {
+        font-size: 5.5vw;
+    }
+    
+}

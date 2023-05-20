@@ -47,3 +47,32 @@
     color: #F9A109;
     cursor: pointer;
 }
+
+
+@media (max-width: 767px) {
+
+    .history-item-card .left h6 {
+        font-size: 3vw;
+    }
+
+    .history-item-card .right .calendar-icon {
+        font-size: 4vw;
+    }
+
+    .history-item-card .right p {
+        font-size: 2.5vw;
+    }
+
+    .history-item-card .right .badge {
+        font-size: 2.5vw;
+    }
+
+    .history-item-card .right .arrow-icon {
+        font-size: 4vw;
+    }
+
+    .history-item-card {
+        padding: 4vw 1.5vw;
+    }
+    
+}

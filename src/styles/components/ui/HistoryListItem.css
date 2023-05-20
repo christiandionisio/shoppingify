@@ -9,3 +9,12 @@
     flex-direction: column;
     gap: 2vw;
 }
+
+
+@media (max-width: 767px) {
+
+    .monthly-history-list h3 {
+        font-size: 3.5vw;
+    }
+    
+}
