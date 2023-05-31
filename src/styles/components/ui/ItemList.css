@@ -31,6 +31,8 @@
 
     .items-list-section {
         gap: 3vw;
+        max-width: fit-content;
+        overflow: hidden;
     }
     
 
