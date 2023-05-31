@@ -40,6 +40,7 @@
 
   .principal-content {
     flex: 7;
+    overflow-x: hidden;
   }
 
   .shopping-list {
