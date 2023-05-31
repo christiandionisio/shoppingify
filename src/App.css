@@ -1,6 +1,7 @@
 .shoppingify-app {
   width: 100vw;
-  height: 100%;
+  /* height: 100%; */
+  height: env(max(100vh - constant(safe-area-inset-top) - constant(safe-area-inset-bottom), 0px));
 
   display: flex;
   flex-direction: row;
