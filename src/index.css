@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #FAFAFE;
   height: 100vh;
+  max-height: 100vh;
 }
 
 code {
