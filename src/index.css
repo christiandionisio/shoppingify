@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FAFAFE;
-  padding-bottom: env(safe-area-inset-bottom);
+  overflow: hidden;
 }
 
 code {
