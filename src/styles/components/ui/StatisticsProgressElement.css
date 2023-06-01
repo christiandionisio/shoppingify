@@ -28,3 +28,19 @@
 .progress-bar-element progress::-webkit-progress-value {
     background: #56CCF2;
 }
+
+@media (max-width: 767px) {
+
+    .progress-bar-element {
+        gap: 12px;
+    }
+
+    .progress-bar-element .info p {
+        font-size: 3.8vw;
+    }
+
+    .progress-bar-element .info h6 {
+        font-size: 4vw;
+    }
+
+}

@@ -8,3 +8,16 @@
 .list-progress-bar-element h1 {
     font-size: 24px;
 }
+
+@media (max-width: 767px) {
+    
+    .list-progress-bar-element {
+        width: 100%;
+        gap: 5.9vw;
+    }
+
+    .list-progress-bar-element h1 {
+        font-size: 5vw;
+    }
+
+}
