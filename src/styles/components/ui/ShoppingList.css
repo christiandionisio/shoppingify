@@ -140,4 +140,46 @@
 
 @media (max-width: 767px) {
 
+    .shopping-list-content {
+        padding: 6vw 4vw;
+    }
+
+    .add-item-card {
+        height: 15vh;
+        gap: 7vw;
+    }
+
+    .icon-row {
+        top: -6.2vw;
+        left: 1vw;
+    }
+
+    .content-row {
+        justify-content: center;
+        gap: 3vw;
+    }
+
+    .content-row h3 {
+        font-size: 4.1vw;
+    }
+
+    .content-row button {
+        width: 60%;
+        height: 4.5vh;
+        font-size: 3.5vw;
+    }
+
+    .name-footer {
+        height: 9vh;
+    }
+
+    .name-footer .enter-name-input input {
+        font-size: 1.3vw;
+    }
+
+    .name-footer .enter-name-input button {
+        font-size: 1.3vw;
+        width: 22%;
+    }
+
 }
