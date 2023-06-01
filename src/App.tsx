@@ -5,18 +5,22 @@ import './App.css';
 import { ShoppingList } from './components/ui/ShoppingList';
 import { Sidebar } from './components/ui/Sidebar';
 import { TabsPage } from './pages/TabsPage';
+import { useState } from 'react';
 
 function App() {
+
+  const [isShoppingListActive, setIsActive] = useState(true);
+
   return (
     <BrowserRouter>
       <div className="shoppingify-app">
         <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="principal-content">
+        <div className={`principal-content ${!isShoppingListActive ? 'display' : ''}`}>
           <TabsPage />
         </div>
-        <div className="shopping-list">
+        <div className={`shopping-list ${isShoppingListActive ? 'display' : ''}`}>
           <ShoppingList />
           {/* <AddNewItem /> */}
           {/* <ItemContent /> */}

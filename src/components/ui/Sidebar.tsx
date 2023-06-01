@@ -11,6 +11,10 @@ export const Sidebar = () => {
         navigate(`${route}`);
     }
     
+    const showShoppingList = () => {
+        console.log('showShoppingList');
+        
+    }
 
   return (
     <div className='sidebar-content'>
@@ -47,7 +51,7 @@ export const Sidebar = () => {
             </div>
         </div>
 
-        <div className="cart">
+        <div className="cart" onClick={() => showShoppingList()}>
             <div className="cart-icon">
                 <span className="material-symbols-outlined">
                     shopping_cart

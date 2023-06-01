@@ -3,6 +3,7 @@ import '../../styles/components/ui/ShoppingList.css'
 import { ProductList } from './ProductList'
 
 export const ShoppingList = () => {
+
   return (
     <div className="shopping-list-content">
         <div className="add-item-card">
@@ -19,7 +20,7 @@ export const ShoppingList = () => {
         
         <div className="name-footer">
             <div className="enter-name-input">
-              <input type="text" value={'Enter a name'} />
+              <input type="text" placeholder='Enter a name' />
               <button>Save</button>
             </div>
         </div>
