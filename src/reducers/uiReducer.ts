@@ -1,4 +1,4 @@
-import { Reducer } from "react";
+import { Reducer } from "redux";
 import { types, UiAppAction, UiAppState } from "../types/types";
 
 
@@ -10,7 +10,7 @@ export const uiReducer: Reducer<UiAppState, UiAppAction>  = (state = initialStat
 
     switch (action.type) {
         case types.uiOpenCart:
-            
+
             return {
                 ...state,
                 modalOpen: true,

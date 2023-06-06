@@ -1,8 +1,17 @@
+import { useDispatch } from 'react-redux';
 import Bottle from '../../assets/source.svg'
 import '../../styles/components/ui/ShoppingList.css'
 import { ProductList } from './ProductList'
+import { uiOpenCart } from '../../actions/ui';
 
 export const ShoppingList = () => {
+
+  const dispatch = useDispatch();
+
+  const openCart = () => {
+    dispatch(uiOpenCart());
+}
+
 
   return (
     <div className="shopping-list-content">
@@ -12,7 +21,7 @@ export const ShoppingList = () => {
             </div>
             <div className="content-row">
                 <h3>Didn't find what you need?</h3>
-                <button>Add item</button>
+                <button onClick={() => openCart()}>Add item</button>
             </div>
         </div>
 
