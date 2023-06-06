@@ -1,8 +1,16 @@
 import '../../styles/components/ui/Sidebar.css'
 import Logo from '../../assets/logo.svg'
 import { useLocation, useNavigate } from "react-router-dom"
+import { useSelector } from 'react-redux';
+import { RootState } from '../../reducers/rootReducers';
+import { useDispatch } from 'react-redux';
+import { uiCloseCart, uiOpenCart } from '../../actions/ui';
 
 export const Sidebar = () => {
+
+    const uiReducer = useSelector((state: RootState) => state.ui);
+    const dispatch = useDispatch();
+    
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -11,9 +19,12 @@ export const Sidebar = () => {
         navigate(`${route}`);
     }
     
-    const showShoppingList = () => {
-        console.log('showShoppingList');
-        
+    const showCloseShoppingList = () => {
+        if (uiReducer.modalOpen) {
+            dispatch(uiCloseCart());
+        } else {
+            dispatch(uiOpenCart());
+        }
     }
 
   return (
@@ -51,7 +62,7 @@ export const Sidebar = () => {
             </div>
         </div>
 
-        <div className="cart" onClick={() => showShoppingList()}>
+        <div className="cart" onClick={() => showCloseShoppingList()}>
             <div className="cart-icon">
                 <span className="material-symbols-outlined">
                     shopping_cart
