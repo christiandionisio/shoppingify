@@ -39,7 +39,7 @@
     overflow: hidden;
   }
 
-  .principal-content {
+  /* .principal-content {
     display: none;
     flex: 7;
     max-width: 100%;
@@ -53,6 +53,20 @@
 
   .display {
     display: block;
+  } */
+
+  .principal-content,
+  .shopping-list {
+    flex: 0;
+    max-width: 0;
+    opacity: 0;
+    transition: flex 0.2s ease, max-width 0.2s ease, opacity 0.2s ease;
+  }
+
+  .display {
+    flex: 7;
+    max-width: 100%;
+    opacity: 1;
   }
 
 }
