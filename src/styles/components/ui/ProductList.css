@@ -95,6 +95,7 @@
 @media (max-width: 767px) {
 
     .product-list {
+        height: 55vh;
         gap: 9.5vw;
     }
 
