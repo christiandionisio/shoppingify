@@ -154,3 +154,65 @@ form {
     background: #F2F2F2;
     color: #34333A;
 }
+
+
+@media (max-width: 767px) {
+
+    .new-item-content {
+        padding: 6vw 4vw;
+        gap: 8vw;
+    }
+
+    .new-item-content h1 {
+        font-size: 6.1vw;
+    }
+
+    form {
+        gap: 20px;
+    }
+
+    .form-field-section {
+        gap: 2vw;
+    }
+
+    .form-field-section label {
+        font-size: 4.1vw;
+    }
+
+    .form-field-section input {
+        padding: 3vw 3vw;
+        font-size: 4.1vw;
+    }
+
+    .form-field-section textarea {
+        padding: 3vw;
+        font-size: 4.1vw;
+        height: 16vh;
+    }
+
+    .form-button-section {
+        flex-direction: column;
+    }
+
+    .btn-cancel {
+        background-color: white;
+        font-size: 4.1vw;
+        padding: 3vw;
+    }
+    
+    .btn-save {
+        width: 100%;
+        font-size: 4.1vw;
+        padding: 3vw;
+    }
+
+    .autocomplete-dropdown li {
+        padding: 3vw;
+        font-size: 4.1vw;
+    }
+
+    .autocomplete-dropdown {
+        height: 14vh;
+    }
+
+}
