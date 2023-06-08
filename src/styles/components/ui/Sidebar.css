@@ -52,7 +52,7 @@
     visibility: hidden;
     transition: visibility 0s, opacity 0.3s linear;
     visibility: visible;
-    font-size: .8vw;
+    font-size: .8vw !important;
 }
 
 .items-tab:hover .tooltip-text {
@@ -163,6 +163,12 @@
         right: -0.5vw;
     }
 
+    .tooltip-text {
+        left: 7%;
+        padding: .8vw;
+        font-size: 1.5vw !important; 
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -209,7 +215,7 @@
     .tooltip-text {
         left: 16%;
         padding: 1vw;
-        font-size: 3vw !important;
+        font-size: 3vw !important; 
     }
 
 }
