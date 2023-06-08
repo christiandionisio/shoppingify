@@ -2,9 +2,10 @@ import { BrowserRouter } from "react-router-dom"
 import { Sidebar } from "../components/ui/Sidebar"
 import { TabsPage } from "./TabsPage"
 import { ShoppingList } from "../components/ui/ShoppingList"
-import { useState } from "react"
 import { RootState } from "../reducers/rootReducers"
 import { useSelector } from "react-redux"
+import { AddNewItem } from "../components/ui/AddNewItem"
+import { ItemContent } from "../components/ui/ItemContent"
 
 
 export const HomePage = () => {
@@ -20,8 +21,9 @@ export const HomePage = () => {
                     <TabsPage />
                 </div>
                 <div className={`shopping-list ${uiReducer.modalOpen ? 'display' : ''}`}>
-                    <ShoppingList />
-                    {/* <AddNewItem /> */}
+                    {
+                        (uiReducer.addItemOpen) ? (<AddNewItem />) : (<ShoppingList />) 
+                    }
                     {/* <ItemContent /> */}
                 </div>
             </div>

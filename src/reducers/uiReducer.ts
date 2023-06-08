@@ -4,6 +4,7 @@ import { types, UiAppAction, UiAppState } from "../types/types";
 
 const initialState: UiAppState = {
     modalOpen: false,
+    addItemOpen: false,
 }
 
 export const uiReducer: Reducer<UiAppState, UiAppAction>  = (state = initialState, action) => {
@@ -21,6 +22,20 @@ export const uiReducer: Reducer<UiAppState, UiAppAction>  = (state = initialStat
             return {
                 ...state,
                 modalOpen: false,
+            };
+
+        case types.uiOpenAddItem:
+
+            return {
+                ...state,
+                addItemOpen: true,
+            };
+
+        case types.uiCloseAddItem:
+            
+            return {
+                ...state,
+                addItemOpen: false,
             };
     
         default:

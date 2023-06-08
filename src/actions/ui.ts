@@ -8,3 +8,12 @@ export const uiOpenCart = (): UiAppAction => ({
 export const uiCloseCart = (): UiAppAction => ({
     type: types.uiCloseCart
 });
+
+export const uiOpenAddItem = (): UiAppAction => ({
+    type: types.uiOpenAddItem
+});
+
+export const uiCloseAddItem = (): UiAppAction => ({
+    type: types.uiCloseAddItem
+});
+

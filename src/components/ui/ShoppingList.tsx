@@ -2,15 +2,15 @@ import { useDispatch } from 'react-redux';
 import Bottle from '../../assets/source.svg'
 import '../../styles/components/ui/ShoppingList.css'
 import { ProductList } from './ProductList'
-import { uiOpenCart } from '../../actions/ui';
+import { uiOpenAddItem } from '../../actions/ui';
 
 export const ShoppingList = () => {
 
   const dispatch = useDispatch();
 
   const openCart = () => {
-    dispatch(uiOpenCart());
-}
+    dispatch(uiOpenAddItem());
+  }
 
 
   return (
