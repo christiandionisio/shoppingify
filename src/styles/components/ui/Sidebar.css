@@ -31,7 +31,6 @@
 }
 .sidebar-content .tabs .history-tab {
     color: #454545;
-    height: 4.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +72,6 @@
 
 .sidebar-content .tabs .statistics-tab {
     color: #454545;
-    height: 4.2vw;
     display: flex;
     justify-content: center;
     align-items: center;
