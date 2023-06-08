@@ -171,8 +171,8 @@
     }
 
     .name-footer {
-        padding: 5vw 5.5vw;
-        height: 11vh;
+        padding: 18px 5.5vw;
+        height: 85px;
     }
 
     .name-footer .enter-name-input input {
